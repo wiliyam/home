@@ -1,3 +1,11 @@
-.home{
-    background-color: aqua
+.home {
+  color: aqua;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

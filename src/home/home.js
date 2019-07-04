@@ -1,17 +1,10 @@
 import React, { Component } from "react";
 import "./home.css";
-
-import Button from "@material-ui/core/Button";
+import posed from "react-pose";
 
 class Home extends Component {
   render() {
-    return (
-      <div className="home">
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
-      </div>
-    );
+    return <div className="home">hello</div>;
   }
 }
 
