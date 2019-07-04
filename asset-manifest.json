@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wiliyam/wiliyam.github.io/static/css/main.12c80133.chunk.css",
-    "main.js": "/wiliyam/wiliyam.github.io/static/js/main.922165d1.chunk.js",
-    "main.js.map": "/wiliyam/wiliyam.github.io/static/js/main.922165d1.chunk.js.map",
-    "runtime~main.js": "/wiliyam/wiliyam.github.io/static/js/runtime~main.4303cd2a.js",
-    "runtime~main.js.map": "/wiliyam/wiliyam.github.io/static/js/runtime~main.4303cd2a.js.map",
-    "static/js/2.3310f33a.chunk.js": "/wiliyam/wiliyam.github.io/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/wiliyam/wiliyam.github.io/static/js/2.3310f33a.chunk.js.map",
-    "index.html": "/wiliyam/wiliyam.github.io/index.html",
-    "precache-manifest.636ffd189dd6807128dd52c03d671a4f.js": "/wiliyam/wiliyam.github.io/precache-manifest.636ffd189dd6807128dd52c03d671a4f.js",
-    "service-worker.js": "/wiliyam/wiliyam.github.io/service-worker.js",
-    "static/css/main.12c80133.chunk.css.map": "/wiliyam/wiliyam.github.io/static/css/main.12c80133.chunk.css.map",
-    "static/media/logo.svg": "/wiliyam/wiliyam.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/wiliyam.github.io/static/css/main.12c80133.chunk.css",
+    "main.js": "/wiliyam.github.io/static/js/main.dc322df7.chunk.js",
+    "main.js.map": "/wiliyam.github.io/static/js/main.dc322df7.chunk.js.map",
+    "runtime~main.js": "/wiliyam.github.io/static/js/runtime~main.33fa0a02.js",
+    "runtime~main.js.map": "/wiliyam.github.io/static/js/runtime~main.33fa0a02.js.map",
+    "static/js/2.3310f33a.chunk.js": "/wiliyam.github.io/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/wiliyam.github.io/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/wiliyam.github.io/index.html",
+    "precache-manifest.bfe439710ef1746b3e7b2797195773e9.js": "/wiliyam.github.io/precache-manifest.bfe439710ef1746b3e7b2797195773e9.js",
+    "service-worker.js": "/wiliyam.github.io/service-worker.js",
+    "static/css/main.12c80133.chunk.css.map": "/wiliyam.github.io/static/css/main.12c80133.chunk.css.map",
+    "static/media/logo.svg": "/wiliyam.github.io/static/media/logo.5d5d9eef.svg"
   }
 }
