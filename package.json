@@ -2,7 +2,7 @@
   "name": "wiliyam.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wiliyam.github.io/",
+  "homepage": "https://wiliyam.github.io/home",
   "dependencies": {
     "@material-ui/core": "^4.1.3",
     "@material-ui/icons": "^4.2.1",
