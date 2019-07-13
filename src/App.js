@@ -1,21 +1,34 @@
-import React from "react";
-import Welcome from "./components/welcome/welcome";
-import Confetti from "react-confetti";
+import React, { Component } from "react";
 import "./App.css";
-import AppBar from "@material-ui/core/AppBar";
-import Anime from "./components/anime/anime";
+import Drawer from "./components/navigation/drawer/drawer";
+import NavBar from "./components/navigation/navbar/navbar";
+import BackDrop from "./components/backdrop/backdrop";
 
-function App() {
-  return (
-    <React.Fragment>
-      <AppBar />
-      <div className="App">
-        <Confetti />
+class App extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
+  drawerToggleHandler = () => {
+    this.setState(preState => {
+      return { sideDrawerOpen: !preState.sideDrawerOpen };
+    });
+  };
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+  render() {
+    let backdrop;
+    if (this.state.sideDrawerOpen) {
+      backdrop = <BackDrop click={this.backdropClickHandler} />;
+    }
+    return (
+      <div style={{ height: "100%" }}>
+        <NavBar draweClick={this.drawerToggleHandler} />
+        <Drawer show={this.state.sideDrawerOpen} />
+        {backdrop}
       </div>
-      <Welcome />
-      <Anime />
-    </React.Fragment>
-  );
+    );
+  }
 }
 
 export default App;
